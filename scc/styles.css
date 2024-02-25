@@ -816,17 +816,17 @@ button {
   margin-bottom: 16px;
 }
 
-@media (max-width: 677px) {
-  .socials-thumb-footer {
-    margin: 0 auto;
-  }
-}
-
 .socials-thumb-footer {
   display: flex;
   gap: 16px;
   width: 208px;
   margin-right: 80px;
+}
+
+@media (max-width: 677px) {
+  .socials-thumb-footer {
+    margin: 0 auto;
+  }
 }
 
 .socials-item-footer {
