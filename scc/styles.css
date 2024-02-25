@@ -175,7 +175,7 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-  .menu-nav-list {
+  .menu-nav {
     padding: 24px 0;
   }
 }
@@ -190,7 +190,7 @@ button {
   width: 100%;
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: -28px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
@@ -199,6 +199,7 @@ button {
 @media screen and (max-width: 767px) {
   .contacts {
     display: none;
+    padding: 24px 0;
   }
 }
 
