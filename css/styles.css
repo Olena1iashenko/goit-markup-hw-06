@@ -250,7 +250,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office-mob@1x.jpg);
+    url(../images/people-office-mob@1x.jpg);
   /* width: 320px; */
   background-repeat: no-repeat;
   background-position: center;
@@ -264,7 +264,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/people-office-mob@2x.jpg);
+      url(../images/people-office-mob@2x.jpg);
   }
 }
 
@@ -276,7 +276,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/people-office-tab@1x.jpg);
+      url(../images/people-office-tab@1x.jpg);
   }
 }
 
@@ -286,7 +286,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/people-office-tab@2x.jpg);
+      url(../images/people-office-tab@2x.jpg);
   }
 }
 
@@ -298,7 +298,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/people-office@1x.jpg);
+      url(../images/people-office@1x.jpg);
   }
 }
 
@@ -308,7 +308,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/people-office@2x.jpg);
+      url(../images/people-office@2x.jpg);
   }
 }
 
@@ -919,6 +919,9 @@ button {
 /* Backdrop form */
 .backdrop {
   position: fixed;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: 0;
   top: 0;
   left: 0;
   width: 100%;
